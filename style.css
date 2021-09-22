@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=News+Cycle:wght@700&display=swap');
-:root{
+
+:root {
     font-family: 'News Cycle', sans-serif;
 }
+
 body {
     display: flex;
-    background: url("images/yoda1.png") right top no-repeat ;
+    background: url("images/yoda1.png") right top no-repeat;
     background-size: 500px 600px;
     background-position-y: 160px;
     background-position-x: center;
@@ -12,16 +14,16 @@ body {
     flex-direction: column;
     min-height: 100vh;
     font-family: 'News Cycle', sans-serif;
-    color: #2ab26a ;
+    color: #2ab26a;
     background-color: #d4f2b2;
     margin: 0px;
 }
 
-.header{
+.header {
 
-    background: url("images/yodaa.png") left top no-repeat ;
+    background: url("images/yodaa.png") left top no-repeat;
     background-size: 130px 150px;
-   
+
     background-position-x: 0px;
     background-position-y: 2px;
 
@@ -32,48 +34,56 @@ body {
     background-position-x: 100px;
     background-position-y: 0px; */
 
-   
-  text-align: center;
-  font-weight: bolder;
-  height: 150px;
-  background-color: #749c54;
-  color: white;
-  font-size: 30px;
-  margin-bottom: 30px;
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 20px;
+
+    text-align: center;
+    font-weight: bolder;
+    height: 150px;
+    background-color: #28470e;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 30px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 20px;
+    transition: 1s;
 }
 
-.main-heading{
-   padding: 50px;
-   letter-spacing: 1.5rem;
+.header:hover {
+    background-image: #28470e;
+    transition: 1s;
 }
 
-.content{
-  box-sizing: border-box;
-  box-shadow: #242c6c;
-  padding: 20px;
-  
+.main-heading {
+    padding: 50px;
+    letter-spacing: 1.5rem;
 }
 
-#txt-input{
-   border-radius: 20px;
-   box-sizing: border-box;
-   height: 110px;
-   width: 100%;
-   max-width: 600px;
-   display: block;
-   margin: auto;
-   padding: 10px;
-   border: 2px solid #2ab26a;
-   background-color: transparent;
+.content {
+    box-sizing: border-box;
+    box-shadow: #242c6c;
+    padding: 20px;
 
 }
 
-#btn-translate{
+#txt-input {
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 110px;
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid #2ab26a;
+    background-color: transparent;
+    transition: 1s;
+}
 
-    /* background: url("images/yoda.png") center no-repeat ;
-    background-size: 70px 60px; */
+#txt-input:hover {
+    background-color: white;
+    transition: 0.5s;
+}
+
+#btn-translate {
 
     width: auto;
     height: 50px;
@@ -88,11 +98,20 @@ body {
     border-style: none;
     border-radius: 10px;
     border: 2px solid black;
+    transition: 1s;
 
 }
 
+#btn-translate:hover {
+    box-shadow: 5px 5px 5px rgba(46, 46, 46, 0.788);
+    color: white;
+    background-color: #28470e;
+    transition: 0.5s;
+    cursor: pointer;
+    padding: 0.5rem;
+}
 
-#output{
+#output {
     border-radius: 20px;
     box-sizing: border-box;
     padding: 10px;
@@ -105,36 +124,122 @@ body {
     margin-right: auto;
     margin-bottom: 0px;
     margin-top: 0px;
-    border: 2px solid #2b3464 ;
+    border: 2px solid #2b3464;
     color: #28470e;
     background: transparent;
-     
+
 }
 
-em{
+em {
     color: black;
 }
 
-.footer{
- margin-top: auto;
- background-color: #749c54;
- color: white;
- height: 20vh; 
- border-top-left-radius: 20px;
- border-top-right-radius: 20px;
+.footer {
+
+    box-sizing: border-box;
+    border: 2px solid black;
+    margin: 1.2rem 2.5rem;
+    padding: 0.5rem;
+    background-color: #749c5400;
+    color: black;
+    height:auto;
+    border-radius: 10px;
+}
+
+.para{
+   padding: 0px;
+  text-align: center;
+  
+}
+
+.footer:hover{
+    background-color: #7c9c61;
+    color: white;
+    box-sizing: border-box;
+    border: 2px solid #28470e;
+}
+
+h4 {
+    text-align: center;
+    padding-top: 1px;
+    letter-spacing: 5px;
 
 }
 
-h4{
- text-align: center;
- padding-top: 1px;
- letter-spacing: 5px;
-
-}
-
-p{
+p {
     padding-left: 50px;
     padding-right: 50px;
     /* font-family:'Comfortaa', cursive ; */
     font-size: small;
+}
+
+/*footer*/
+
+footer {
+    background-color: #749c54;
+    margin: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: 1s;
+
+}
+
+footer:hover {
+    background-color: #28470e;
+    transition: 1s;
+}
+
+.fa {
+    padding: 10px;
+    font-size: larger;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2rem;
+    color: white;
+    transition: 1s;
+}
+
+.fa-github:hover {
+    color: #624a85;
+    margin: 0px 50px;
+    transition: 1s;
+    font-size: xx-large;
+}
+
+.fa-linkedin:hover {
+    color: #0e76a8;
+    margin: 0px 50px;
+    transition: 1s;
+    font-size: xx-large;
+}
+
+.fa-twitter:hover {
+    color: #1DA1F2;
+    margin: 0px 50px;
+    transition: 1s;
+    font-size: xx-large;
+}
+
+.fa-instagram:hover {
+    color: #fb3958;
+    margin: 0px 50px;
+    transition: 1s;
+    font-size: xx-large;
+}
+
+footer h3 {
+
+    padding: 3rem;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+.icon {
+    margin-left: 2rem;
+    padding: auto;
+    text-align: center;
+    font-size: x-large;
 }
