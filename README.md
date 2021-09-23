@@ -3,8 +3,9 @@
 
 ##### User can give English sentence as input and it will give output in Yoda Language.
 
+![YIDA](https://user-images.githubusercontent.com/81930207/134585542-e42a0f1c-94c1-4f99-9fc2-e927224eb163.png)
 
-![yoda](https://user-images.githubusercontent.com/81930207/134581933-c192252c-ab66-4d98-9d0e-fd9a8577c1e3.png)
+
 
 # Tech Used:
 * HTML5
